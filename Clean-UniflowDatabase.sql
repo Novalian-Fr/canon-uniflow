@@ -36,7 +36,7 @@ DECLARE @CurrentDate as datetime
 
 
 -- DEADLINE à renseigner au format "AAAA MM JJ hh:mm:ss" -- ACTION REQUISE --
-SET @DeadlineAAAAMMJJ = '2019-01-01 00:00:00'
+SET @DeadlineAAAAMMJJ = '2019-12-31 23:59:59'
 
 
 SET @CurrentDate = CURRENT_TIMESTAMP
